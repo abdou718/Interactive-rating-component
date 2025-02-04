@@ -1,0 +1,107 @@
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --background:#1b222c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+}
+body{
+    background-color:var(--VeryDarkBlue);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.card{
+    background-color: var(--DarkBlue);
+    color:var(--White);
+    width:30%;
+    height: 54%;
+    padding: 1.3rem;
+    border-radius: 2rem;
+}
+.star{
+    background-color: var(--background);
+    padding: 0.8rem;
+    border-radius: 50%;
+    margin-top:0.3rem;
+    margin-bottom:1.2rem;
+}
+.card h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+.card p{
+    color: var(--LightGrey);
+    line-height: 1.5rem;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.rating button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color:var(--background);
+    color: var(--LightGrey);
+    border: none;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+}
+.error {
+    color: red;
+    text-align: center;
+    margin: 0;
+    display: none; /* Hidden by default */
+}
+
+.Submit{
+    background-color: var(--Orange);
+    color: var(--VeryDarkBlue);
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    border: none;
+    margin-bottom: rem;
+}
+.two{
+    display: none;
+}
+.thanks{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+span{
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--Orange);
+    background-color: var(--background);
+    border-radius: 1.5rem;
+    padding:0.4rem 0.4rem;
+}
+.thank-you{
+    text-align: center;
+    margin-top: 2rem;
+}
+.description{
+    text-align: center;
+}

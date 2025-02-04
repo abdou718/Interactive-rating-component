@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="index.js" defer></script>
+        <title>Interactive rating component</title>
+    </head>
+    <body>
+        <div class="card one">
+            <img class="star"src="/images/icon-star.svg" alt="star">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="rating">
+                <button class="rate">1</button>
+                <button class="rate">2</button>
+                <button class="rate">3</button>
+                <button class="rate">4</button>
+                <button class="rate">5</button>
+            </div>
+            <p class="error"></p>
+            <button class="Submit">Submit</button>
+        </div>
+        <div class="card two">
+            <img class="thanks" src="/images/illustration-thank-you.svg" alt="thank you">
+            <span> You selected 4 out of 5</span>
+            <h1 class="thank-you">Thank you!</h1>
+            <p class="description">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </body>
+</html>
